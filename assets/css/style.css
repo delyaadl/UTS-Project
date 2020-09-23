@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+
+.title-bar {
+    background-color: rgba(50, 68, 90, 0.69);
+    padding: 1px;
+}
+
+.title-bar h4 {
+    margin: 7px 0;
+    font-family: Archivo;
+    color: white; 
+    font-weight: 700; 
+}
+
+.jumbotron {
+    margin-top: 0px;
+}
+
+.jumbotron-override {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/header.jpg);
+    margin-bottom: 0px;
+    background-size: cover;
+    background-position: center; 
+}
+
+.jumbotron-override h1{
+    font-family: Archivo, sans-serif;
+    color: #1d1d1d;
+    margin-top: 160px;
+    margin-bottom: 0;
+    letter-spacing: 4px;
+    text-shadow: -3px -3px 0 rgba(50, 68, 90, 0.69), 3px -3px 0 rgba(50, 68, 90, 0.69), -3px 3px 0 #c3c3c3, 3px 3px 0 #c3c3c3;
+}
+
+.jumbotron-override p {
+    color: #ffffff;
+    margin: 0 auto;
+    letter-spacing: 4px;
+}
+
+.jumbotron-override .seemore {
+    padding: 7px 15px;
+    background-color: #00c1c1;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 150px;
+    border-radius: 20px;
+    letter-spacing: 4px;
+}
+.navbar-override {
+    background-color: rgba(25, 25, 25, 0.73);
+}
+
+.navbar-toggler-override {
+    color: white;
+}
+
+.navbar-nav li {
+    margin-right: 15px;
+}
+
+.game-section, .tech-section {
+    background-color: #815bd6;
+    padding: 40px;
+    padding-left: 70px;
+}
+
+.tech-section {
+    background-color: #10596a;
+}
+
+footer p {
+    margin-left: 30px;
+    margin-bottom: 0;
+}
